@@ -5,6 +5,23 @@
 }
 
 
+h1 {
+    animation-duration: 2s;
+    animation-name: bounce1;
+    animation-iteration-count: infinite;
+    
+}
+
+
+@keyframes bounce1{
+    0%{
+    opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 .grid-container{
     display: grid;
     grid-template-areas:
