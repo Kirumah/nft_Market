@@ -17,7 +17,7 @@
 
 .flex-header{
     display: flex;
-    background-color: #bc6c25;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(33,9,121,1) 35%, rgba(0,212,255,1) 100%);
     justify-content: center;
     align-items: center;
     padding: 10px;
@@ -48,7 +48,7 @@
 }
 
 .grid-footer{
-    background-color: #fca311;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(33,9,121,1) 35%, rgba(0,212,255,1) 100%);
     grid-area: footer;
     height: auto;
     
