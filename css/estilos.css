@@ -5,23 +5,6 @@
 }
 
 
-h1 {
-    animation-duration: 2s;
-    animation-name: bounce1;
-    animation-iteration-count: infinite;
-    
-}
-
-
-@keyframes bounce1{
-    0%{
-    opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
-}
-
 .grid-container{
     display: grid;
     grid-template-areas:
@@ -34,7 +17,7 @@ h1 {
 
 .flex-header{
     display: flex;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(33,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background-color: #bc6c25;
     justify-content: center;
     align-items: center;
     padding: 10px;
@@ -65,7 +48,7 @@ h1 {
 }
 
 .grid-footer{
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(33,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background-color: #fca311;
     grid-area: footer;
     height: auto;
     
