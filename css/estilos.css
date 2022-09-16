@@ -16,31 +16,27 @@ img {
     "header header header"
     "main main main"
     "footer footer footer";
-    grid-template-rows: 90px 1fr;
+    grid-template-rows: auto 1fr;
        
 }
 
-.flex-header{
-    display: flex;
-    background-color: #bc6c25;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-}
+
 .grid-header{
-    
     grid-area: header;
 }
 
-
-.logo{
-    display: flex;
-    align-items: center;
-    
+.bg-cabeza{
+    background-color: #fca311
 }
 
-.logo img{
+.navbar{
+    height: auto;
+} 
+
+
+.navbar-brand img{
     height: 50px;
+    
 }
 
 
@@ -48,8 +44,8 @@ ul li {
     display: inline-block;
     margin-top: 20px;
     font-size: 20px;
-    margin-right: 15px;
-    margin-left: 15px;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
 a{
@@ -58,10 +54,10 @@ a{
  
 }
 
-nav a{
+/* nav a{
     font-weight: 600;
 }
-
+ */
 nav a:hover{
     color: #fff;
 }
@@ -245,7 +241,7 @@ footer .copy{
     color: aqua;
 }
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
         .grid-container{
             grid-template: 
             "header header header" 
@@ -262,11 +258,6 @@ footer .copy{
             margin-right: 30px;
             
         }
-
-        header{
-            display:flex;
-            justify-content: center;
-        }
       
         .imagen-main img{
             width: 445px;
@@ -276,4 +267,4 @@ footer .copy{
         
     }
 
-
+ */
