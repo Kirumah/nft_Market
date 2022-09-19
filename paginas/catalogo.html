@@ -19,25 +19,64 @@
 	<div class="grid-base">
 		<header class="grid-header">
 			<nav class="navbar navbar-expand-lg bg-cabeza">
-				<div class="container-fluid">
-				  <a class="navbar-brand" href="#"><img src="../multimedia/Adanity-Logo-1.png" alt="logo"></a>
-				  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<div class="container-fluid align-items-center">
+				  <a class="navbar-brand" href="../index.html"><img src="../multimedia/Adanity-Logo-1.png" alt="logo"></a>
+				  <a href="../index.html"><div class="navbar_logoText__krn_c font-family-roboto-slab">kirumah.store</div></a>
+				  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				  </button>
-				  <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-					<ul class="navbar-nav">
+				  <form class="d-flex" role="search">
+					<input class="form-control focus" type="search" placeholder="Buscar colección NFT" aria-label="Search">
+				  </form>
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 					  <li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+						<a class="nav-link" aria-current="page" href="./catalogo.html">Tienda</a>
 					  </li>
-					  <li class="nav-item">
-						<a class="nav-link" href=".//paginas/catalogo.html">Catalogo</a>
-					  </li>
-					  <li class="nav-item">
-						<a class="nav-link" href="">nose</a>
-					  </li>
-					  <li class="nav-item">
-						<a class="nav-link disabled">Disabled</a>
-					  </li>
+					  <div class="dropdown">
+						<a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						  Creators
+						</a>
+						  <ul class="dropdown-menu">
+							<div class="action-nav">
+							<img src="../multimedia/minting-icon.svg" alt="">
+							<li><a class="dropdown-item" href="#">Create Your Collection</a></li>
+						</div>
+						  <li><hr class="dropdown-divider"></li>
+						  <div class="action-nav"> 
+						  <img src="../multimedia/verify-collection.svg" alt="">
+						  <li><a class="dropdown-item" href="#">Verify Your Collection</a></li>
+						</div>
+						  <li><hr class="dropdown-divider"></li>
+						  <div class="action-nav"> 
+						  <img src="../multimedia/discord-bot-hippo.svg" alt=""> 
+						  <li><a class="dropdown-item" href="#">Discord Bot</a></li>
+						</div>
+						</ul>
+					  </div>
+					  <div class="dropdown">
+						<a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						  About
+						</a>
+						  <ul class="dropdown-menu">
+							<div class="action-nav">
+							<img src="../multimedia/our-impact.svg" alt="">
+							<li><a class="dropdown-item" href="./impacto.html">Nuestro impacto</a></li>
+						</div>
+						  <li><hr class="dropdown-divider"></li>
+						  <div class="action-nav"> 
+						  <img src="../multimedia/icons8-ecommerce-64.png" alt="">
+						  <li><a class="dropdown-item" href="#">Registrarse</a></li>
+						</div>
+						  <li><hr class="dropdown-divider"></li>
+						  <div class="action-nav pregunta"> 
+						  <img src="../multimedia/preguntaa.png" alt=""> 
+						  <li><a class="dropdown-item" href="./preguntas.html">Preguntas</a></li>
+						</div>
+						</ul>
+					  </div>
+					</ul>
+				  </div>
 					</ul>
 				  </div>
 				</div>

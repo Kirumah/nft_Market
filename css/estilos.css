@@ -749,6 +749,152 @@ footer .copy{
 
 }
 
+.preguntas-main{
+    padding-top: 25px;
+    display: block;
+}
+
+.preguntas-informacion{
+    padding-left: 120px;
+    padding-right: 120px;
+    max-width: 1150px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    padding-top: 25px;
+}
+
+.guia-inicio{
+    background-color: #1c1c1c;
+    padding: 60px 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.guia-inicio h2{
+    margin-bottom: 1em;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 120%;
+    text-align: center;
+    color: #dfe5f3;
+}
+
+.preguntas-informacion-texto h1{
+    font-size: 60px;
+    font-family: Roboto Slab;
+    font-weight: 900;
+    color: #dfe5f3;
+}
+
+.cartas-preguntas{
+    max-width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+}
+
+.cartas-preguntas a{
+    border: 1px solid #454b58;
+    border-radius: 8px;
+    overflow: hidden;
+    flex: 1 1;
+    background: #141414;
+}
+
+
+.cartas-preguntas-contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 28px;
+    width: 380px;
+}
+
+.cartas-preguntas-contenido-imagen img{
+    width: 100%;
+    display: flex;
+    flex: 1 1;
+}
+
+.cartas-preguntas-contenido-imagen-texo{
+    color:#949fa9;
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+
+.guia-inicio h3{
+    font-size: 17px;
+    margin-top: 30px;
+     
+}
+
+
+.cartas-preguntas a:hover{
+    transition: all .3s ease;
+    color: #fff;
+}
+
+
+.preguntas-frecuentes{
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.preguntas-frecuentas-subtitulos h3{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 24px;
+    color: #949fa9;
+
+}
+
+.preguntas-frecuentes h2{
+    margin-top: 128px;
+    font-size: 28px;
+    font-family: Inter;
+    color: #fff;
+    text-align: center;
+}
+
+.preguntas-frecuentes section p {
+    overflow: hidden;
+    max-height: 0;
+    text-align: justify;
+    font-family: "Courier New", Courier, monospace;
+    background: #e4e4e4;
+    transition: all 0.2s ease-in;
+  }
+  
+  .preguntas-frecuentes section a {
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    padding: 10px;
+    font-family: "Courier New", Courier, monospace;
+    background-color: #212121;
+    border-bottom: 2px solid gray;
+    color: white;
+  }
+  
+  .preguntas-frecuentes section:target p {
+    max-height: 100%;
+    padding: 10px;
+  }
+
+
 @media screen and (max-width: 480px) {
         .grid-container{
             grid-template: 
