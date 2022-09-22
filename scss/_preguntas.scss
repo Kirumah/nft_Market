@@ -104,11 +104,12 @@
         font-family: "Courier New", Courier, monospace;
         background: #e4e4e4;
         transition: all 0.2s ease-in;
-        &:target p {
+        }
+        section:target p {
             max-height: 100%;
             padding: 10px;
         }
-    }
+    
     section a {
         text-decoration: none;
         display: block;
@@ -127,7 +128,6 @@
     font-size: 24px;
     margin-bottom: 24px;
     color: #949fa9;
-
 }
 
 .apoyo{

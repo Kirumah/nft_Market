@@ -332,10 +332,10 @@ footer .copy {
     .grid-imagen .tarjeta:hover {
       transform: translate(-15px);
       box-shadow: 0 12px 16px black; }
-    .grid-imagen .tarjeta .tarjeta img {
+    .grid-imagen .tarjeta img {
       width: 330px;
       height: auto; }
-    .grid-imagen .tarjeta .tarjeta a {
+    .grid-imagen .tarjeta a {
       color: #ffc900;
       font-weight: 600;
       display: inline-block;
@@ -345,7 +345,7 @@ footer .copy {
       line-height: 30px;
       border-radius: 8%;
       font-family: Inter; }
-    .grid-imagen .tarjeta .tarjeta h4 {
+    .grid-imagen .tarjeta h4 {
       color: #fff;
       margin-top: 5px;
       font-size: 20px;
@@ -356,7 +356,7 @@ footer .copy {
   display: flex;
   margin-top: 36px;
   align-items: center; }
-  .precio-info .span {
+  .precio-info span {
     color: #fff;
     font-weight: 600;
     font-size: 22px;
@@ -670,9 +670,9 @@ footer .copy {
     font-family: "Courier New", Courier, monospace;
     background: #e4e4e4;
     transition: all 0.2s ease-in; }
-    .preguntas-frecuentes section p:target p {
-      max-height: 100%;
-      padding: 10px; }
+  .preguntas-frecuentes section:target p {
+    max-height: 100%;
+    padding: 10px; }
   .preguntas-frecuentes section a {
     text-decoration: none;
     display: block;
@@ -846,8 +846,8 @@ footer .copy {
   .informacion-section img {
     width: 50px;
     height: 50px; }
-    .informacion-section img p {
-      font-size: 10px; }
+  .informacion-section p {
+    font-size: 10px; }
   .form-control {
     width: auto; }
   .caardd {
@@ -857,8 +857,8 @@ footer .copy {
     height: 100px; }
   .ambiente-medio-imagen img {
     width: auto; }
-    .ambiente-medio-imagen img p {
-      width: 300px; }
+  .ambiente-medio-imagen p {
+    width: 300px; }
   .ambiente-final-texto p {
     width: 350px; }
   .ambiente-final-imagen {
