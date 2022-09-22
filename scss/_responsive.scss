@@ -1,0 +1,132 @@
+@media screen and (max-width: 480px) {
+    .grid-container{
+        grid-template: 
+        "header header header" 
+        "main main main" 
+        "footer footer footer"  ;
+    }
+    
+    .redes-sociales a{
+
+        margin-right:30px ;
+        margin-left:30px;
+    }
+    
+    .box{
+        flex-direction: column-reverse;
+        h1{
+            font-size: 35px;
+        }
+        p{
+            font-size: 10px;
+    
+        }
+    }
+    
+    .menu-principal button {
+        font-size: 10px;
+        padding: 10px;
+
+    }
+
+    .informacion-section img{
+        width: 50px;
+        height: 50px;
+        p{
+            font-size: 10px;
+        }
+    }
+
+   .form-control {
+        width: auto;
+    }
+    .caardd {
+        width: auto;
+        height: auto;
+    }
+
+    .ambiente img{
+        height: 100px;
+    }
+    
+    .ambiente-medio-imagen img{
+        width: auto;
+        p{
+            width: 300px;
+        }
+    }
+
+    .ambiente-final-texto p{
+        width: 350px;
+    }
+
+    .ambiente-final-imagen{
+        flex-direction: column-reverse;
+    }
+    
+    .ambiente-final-futuro{
+        flex-direction: column-reverse;
+    }
+
+    .ambiente-final-futuro-texto p{
+        width: 370px;
+    }
+
+    .ambiente-final-informacion-texto p{
+        width: 370px;
+    }
+
+    .ambiente-final-informacion-2{
+        flex-direction: column-reverse;
+    }
+
+    .ambiente-final-creditos-texto{
+        position: inherit;
+    }
+
+    .registro-derecha{
+        right: 0px;
+        height: 150px !important;
+    }
+
+    .registro-izquierda{
+        left: -46px;
+        height: 150px !important;
+        top: 874px;
+    }
+
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+        z-index: 100;
+    }
+
+    .cartas-preguntas{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .parrafo-1, .parrafo-2{
+        margin-right: 15px;
+    }
+
+    .preguntas-frecuentes section p{
+        text-align: start;
+    }
+
+    .preguntas-informacion-texto h1{
+        font-size: 35px;
+    }
+
+    .preguntas-informacion{
+        margin-right: 20px;
+        img{
+            width: 100px;
+            height: 100px;
+            margin-right: 100px;
+            margin-bottom: -110px;
+        }
+    }
+
+    .guia-inicio{
+        margin-top: 100px;
+    }
+}

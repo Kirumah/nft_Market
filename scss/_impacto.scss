@@ -1,0 +1,239 @@
+.contenedor-ambiente{
+    padding-top: 150px;
+    font-family: Inter;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.ambiente{
+    margin: 0 auto;
+    max-width: 1800px;
+    img{
+        height: auto;
+        width: auto;
+    }
+}
+
+.ambiente-inicio{
+    padding-bottom: 200px;
+    align-items: center;
+    text-align: center;
+    display: block;
+    h1{
+        color: #fff;
+        margin: 1em 0px;
+        font-size: 64px;
+        font-weight: 900;
+        font-family: Roboto Slab;
+        display: block;
+    }
+    p{
+        color: #79858f;
+        line-height: 160%;
+        font-size: 24px;
+        text-align: center;
+        font-family: Inter;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+        width: 60%;
+     }
+}
+
+.ambiente-medio{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.planta{
+    display: inline;
+    position: absolute;
+    top: 12%;
+    right: 0px;
+    height: auto;
+}
+
+.planeta{
+    display: inline;
+    position: absolute;
+    top: 260px;
+    left: 0;
+}
+
+.ambiente-medio-imagen{
+    margin: auto;
+    left: 7%;
+    top: 30%;
+    height: 100%;
+    align-items: center;
+    position: absolute;
+    display: block;
+    img{
+        height: auto;
+    }
+    p{
+        color: white;
+        width: 415px;
+        line-height: 160%;
+        padding: 10px 0;
+        margin: 1em 0;
+        font-size: 16px;
+        font-family: Inter;
+    }
+}
+
+.boton-ambiente{
+    font-size: 18px;
+    width: 224px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    border: 1px solid #454b58;
+    font-family: Inter;
+    font-weight: 600;
+    padding: 10px 0px;
+}
+
+.ambiente-final{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    max-width: 100%;
+}
+
+.ambiente-final-imagen{
+    padding-top: 175px;
+    gap: 150px;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+
+}
+
+.ambiente-final-texto{
+    padding-top: 50px;
+    display: block;
+    h2{
+        font-size: 28px;
+        font-family: Inter;
+        margin: 1em 0;
+        font-weight: 700;
+        line-height: 162.5%;
+        color: #fff;
+    }
+    p{
+        width: 425px;
+        line-height: 1.7;
+        font-size: 16px;
+        color: #79858f;
+        font-family: Inter;
+    }
+}
+
+.ambiente-final-informacion-2{
+    padding-top: 120px;
+    gap: 150px;
+    justify-content: center;
+    flex-direction: row-reverse;
+    display: flex;
+}
+
+.ambiente-final-informacion-texto{
+    padding-top: 50px;
+    display: block;
+    h2{
+        font-size: 28px;
+        font-family: Inter;
+        margin: 1em 0;
+        font-weight: 700;
+        line-height: 162.5%;
+        color: #fff;
+    }
+    p{
+        width: 425px;
+        line-height: 1.7;
+        font-size: 16px;
+        color: #79858f;
+        margin: 0 auto;
+        font-family: Inter;
+    }
+}
+
+.ambiente-final-futuro{
+    padding-top: 120px;
+    gap: 150px;
+    justify-content: center;
+    display: flex;
+}
+
+.ambiente-final-futuro-texto{
+    padding-top: 50px;
+    display: block;
+    h2{
+        font-size: 28px;
+        font-family: Inter;
+        font-weight: 700;
+        line-height: 162.5%;
+        color: #fff;
+    }
+    p{
+        width: 425px;
+        line-height: 1.7;
+        font-size: 16px;
+        color: #79858f;
+        margin: 1em 0;
+        font-family: Inter;
+    }
+}
+
+.ambiente-final-creditos{
+    width: 100%;
+    padding: 175px 0 0 0;
+    margin: 0;
+    max-width: 100%;
+    position: relative;
+}
+
+.ambiente-final-creditos-imagen{
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.ambiente-final-creditos-texto{
+    top: 55%;
+    padding: 0;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    h2{
+        font-size: 28px;
+        font-family: Inter;
+        color: #fff;
+        margin-bottom: 1em;
+        font-weight: 700;
+        line-height: 162.5%;
+    }
+    p{
+        line-height: 160%;
+        color: #dfe5f3;
+        width: 60%;
+        margin: 0 auto;
+        font-size: 16px;
+        font-family: Inter;
+        text-align: center;
+    }
+}

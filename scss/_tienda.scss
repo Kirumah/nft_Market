@@ -1,0 +1,70 @@
+.grid-imagen{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    max-width: 1800px;
+    
+    .tarjeta{
+        width: 330px;
+        height: 450px;
+        border-radius: 8px;
+        box-shadow: 0 2px 1px rgb(255, 253, 253);
+        overflow: hidden;
+        margin: 20px;
+        text-align: center;
+        transition: all 0.25s;
+        &:hover{
+        transform: translate(-15px);
+        box-shadow: 0 12px 16px rgb(0, 0, 0.2);
+    }
+    .tarjeta img{
+        width: 330px;
+        height: auto;
+    }
+    .tarjeta a{
+        color: #ffc900;
+        font-weight: 600;
+        display: inline-block;
+        width: 85px;
+        background-color: #5f4e00;
+        align-items: center;
+        line-height: 30px;
+        border-radius: 8%;
+        font-family: Inter;
+    
+    }
+    .tarjeta h4{
+        color: #fff;
+        margin-top: 5px;
+        font-size: 20px;
+        font-family: serif;
+    }
+        }   
+}
+
+.precio-info{
+    justify-content: space-between;
+     display: flex;
+     margin-top: 36px;
+     align-items: center;
+     .span{
+        color: #fff;
+        font-weight: 600;
+        font-size: 22px;
+        font-family: Roboto Slab;
+        margin-left: 5px;
+    }
+}
+
+.eth-precio{
+    margin-left: 6px;
+    i{
+       color: floralwhite;
+       font-size: 25px;
+       display: inline-block;
+   }
+}
+
+
