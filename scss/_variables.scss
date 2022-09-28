@@ -1,0 +1,20 @@
+$paleta:(
+    principal: #111,
+    llamativo: #156,
+    whatsapp: green,
+    instagram: yellow,
+    facebook: orange,
+);
+
+.bg-cabeza, .grid-footer{
+    background-color: map-get($paleta, llamativo);
+}
+
+@mixin sizes($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
+
+.navbar_logoText__krn_c{
+    @include sizes(500px, 180px)
+}

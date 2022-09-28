@@ -135,3 +135,15 @@
     height: 50px;
     background-color: #111;
 }
+
+.apoyo2{
+    @extend .apoyo;
+    background-color: rgb(245, 13, 13);
+    height: 20px
+}
+
+.apoyo3{
+    @extend .apoyo;
+    background-color: rgb(86, 13, 245);
+    height: 70px;
+}
