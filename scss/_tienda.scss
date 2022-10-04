@@ -5,7 +5,6 @@
     margin: auto;
     width: 100%;
     max-width: 1800px;
-    
     .tarjeta{
         width: 330px;
         height: 450px;
@@ -33,38 +32,37 @@
         line-height: 30px;
         border-radius: 8%;
         font-family: Inter;
-    
     }
     h4{
-        color: #fff;
+        color: $titulos_mayoria;
         margin-top: 5px;
         font-size: 20px;
         font-family: serif;
     }
         }   
+        .precio-info{
+            justify-content: space-between;
+             display: flex;
+             margin-top: 36px;
+             align-items: center;
+             span{
+                color: $titulos_mayoria;
+                font-weight: 600;
+                font-size: 22px;
+                font-family: Roboto Slab;
+                margin-left: 5px;
+            }
+        }
+        .eth-precio{
+            margin-left: 6px;
+            i{
+               color: floralwhite;
+               font-size: 25px;
+               display: inline-block;
+           }
+        }
 }
 
-.precio-info{
-    justify-content: space-between;
-     display: flex;
-     margin-top: 36px;
-     align-items: center;
-     span{
-        color: #fff;
-        font-weight: 600;
-        font-size: 22px;
-        font-family: Roboto Slab;
-        margin-left: 5px;
-    }
-}
 
-.eth-precio{
-    margin-left: 6px;
-    i{
-       color: floralwhite;
-       font-size: 25px;
-       display: inline-block;
-   }
-}
 
 

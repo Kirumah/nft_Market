@@ -5,7 +5,6 @@
     align-items: center;
     text-align: center;
 }
-
 .ambiente{
     margin: 0 auto;
     max-width: 1800px;
@@ -14,14 +13,13 @@
         width: auto;
     }
 }
-
 .ambiente-inicio{
     padding-bottom: 200px;
     align-items: center;
     text-align: center;
     display: block;
     h1{
-        color: #fff;
+        color: $titulos_mayoria;
         margin: 1em 0px;
         font-size: 64px;
         font-weight: 900;
@@ -41,32 +39,27 @@
         width: 60%;
      }
 }
-
 .form-label{
     color: #ffc107;
     margin-bottom: 1.5rem;
     margin-top: 0.5rem;
     font-family: Roboto Slab;
     font-size: 23px;
+    .form-text{
+        margin-top: 3.25rem;
+    }
+    .form-check-label{
+        color: #ffc107;
+        margin-top: 73px;
+        font-size: 38px;
+    }
   }
-
 .btn-primary{
     --bs-btn-bg: #ffc107;
     --bs-btn-border-color: none;
     --bs-btn-hover-bg: #ffc107;
     --bs-btn-active-bg: #ffc107a1;
 }
-
-.form-text{
-    margin-top: 3.25rem;
-}
-
-.form-check-label{
-    color: #ffc107;
-    margin-top: 73px;
-    font-size: 38px;
-}
-
 .registro-derecha{
     display: inline;
     position: absolute;
@@ -74,14 +67,12 @@
     right: 0;
     height: 50px;
   }
-
   .registro-izquierda{
     display: inline;
     position: absolute;
     top: 600px;
     left: -250px;
   }
-
   .guia-inicio{
     background-color: #1c1c1c;
     padding: 60px 100px;
@@ -105,7 +96,6 @@
         color: #ffc107;
     }
 }
-
 .cartas-preguntas{
     max-width: 1400px;
     display: flex;
@@ -121,33 +111,29 @@
         background: #141414;
         &:hover{
             transition: all .3s ease;
-            color: #fff;
+            color: $titulos_mayoria;
         }
     }
+    .cartas-preguntas-contenido{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 25px 28px;
+        width: 380px;
+    }
+    .cartas-preguntas-contenido-imagen img{
+        width: 100%;
+        display: flex;
+        flex: 1 1;
+    }
+    .cartas-preguntas-contenido-imagen-texo{
+        color:#949fa9;
+        margin: 0;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+    }
 }
-
-.cartas-preguntas-contenido{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 25px 28px;
-    width: 380px;
-}
-
-.cartas-preguntas-contenido-imagen img{
-    width: 100%;
-    display: flex;
-    flex: 1 1;
-}
-
-.cartas-preguntas-contenido-imagen-texo{
-    color:#949fa9;
-    margin: 0;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 150%;
-}
-
 .p-guia-inicio{
     color: #f8f9fac7;
     font-size: 16px;

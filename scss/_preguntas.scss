@@ -1,20 +1,24 @@
 .preguntas-main{
     padding-top: 25px;
     display: block;
+    .preguntas-informacion{
+        padding-left: 120px;
+        padding-right: 120px;
+        max-width: 1150px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+        padding-top: 25px;
+    }
 }
-
-.preguntas-informacion{
-    padding-left: 120px;
-    padding-right: 120px;
-    max-width: 1150px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    overflow: hidden;
-    padding-top: 25px;
+.preguntas-informacion-texto h1{
+    font-size: 60px;
+    font-family: Roboto Slab;
+    font-weight: 900;
+    color: #dfe5f3;
 }
-
 .guia-inicio{
     background-color: #1c1c1c;
     padding: 60px 100px;
@@ -37,14 +41,6 @@
         color: #ffc107;
     }
 }
-
-.preguntas-informacion-texto h1{
-    font-size: 60px;
-    font-family: Roboto Slab;
-    font-weight: 900;
-    color: #dfe5f3;
-}
-
 .cartas-preguntas{
     max-width: 1400px;
     display: flex;
@@ -60,33 +56,29 @@
         background: #141414;
         &:hover{
         transition: all .3s ease;
-        color: #fff;
+        color: $titulos_mayoria;
          }
     }
+    .cartas-preguntas-contenido{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 25px 28px;
+        width: 380px;
+    }
+    .cartas-preguntas-contenido-imagen img{
+        width: 100%;
+        display: flex;
+        flex: 1 1;
+    }
+    .cartas-preguntas-contenido-imagen-texo{
+        color:#949fa9;
+        margin: 0;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+    }
 }
-
-.cartas-preguntas-contenido{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 25px 28px;
-    width: 380px;
-}
-
-.cartas-preguntas-contenido-imagen img{
-    width: 100%;
-    display: flex;
-    flex: 1 1;
-}
-
-.cartas-preguntas-contenido-imagen-texo{
-    color:#949fa9;
-    margin: 0;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 150%;
-}
-
 .preguntas-frecuentes{
     width: 60vw;
     margin: 0 auto;
@@ -94,7 +86,7 @@
         margin-top: 128px;
         font-size: 28px;
         font-family: Inter;
-        color: #fff;
+        color: $titulos_mayoria;
         text-align: center;
     }
     section p {
@@ -109,7 +101,6 @@
             max-height: 100%;
             padding: 10px;
         }
-    
     section a {
         text-decoration: none;
         display: block;
@@ -120,30 +111,24 @@
         border-bottom: 2px solid gray;
         color: white;
       }
+      .preguntas-frecuentas-subtitulos h3{
+          font-family: Inter;
+          font-weight: 600;
+          font-size: 24px;
+          margin-bottom: 24px;
+          color: #949fa9;
+      }
 }
-
-.preguntas-frecuentas-subtitulos h3{
-    font-family: Inter;
-    font-weight: 600;
-    font-size: 24px;
-    margin-bottom: 24px;
-    color: #949fa9;
-}
-
 .apoyo{
     width: 100%;
     height: 50px;
-    background-color: #111;
+    background-color: $color_principal;
 }
 
-.apoyo2{
-    @extend .apoyo;
-    background-color: rgb(245, 13, 13);
-    height: 20px
-}
 
-.apoyo3{
-    @extend .apoyo;
-    background-color: rgb(86, 13, 245);
-    height: 70px;
-}
+
+
+
+
+
+

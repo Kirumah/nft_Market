@@ -1,19 +1,23 @@
+@import "variables";
 *{
     font-family: 'DynaPuff', cursive;
     margin: 0;
     padding: 0;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    ul li {
+        margin-left: auto;
+        align-items: center;
+        padding-left: 20px;    
+    }
+    a{
+        text-decoration: none;
+        color: $titulos_mayoria;
+    }
 }
-
-.navbar-toggler{
-    background-color: #0a9ae4;
-}
-
-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
 .grid-base{
     display: grid;
     grid-template-areas:
@@ -22,30 +26,204 @@ img {
     "section section section"
     "footer footer footer";
     grid-template-rows: auto 1fr;
+    .grid-header{
+        grid-area: header;
+    }
+    .navbar-toggler{
+        background-color: #0a9ae4;
+    }
+    .navbar_logoText__krn_c{
+        color: $titulos_mayoria;
+        height: 55px;
+        font-size: 36px;
+        font-family: Roboto Slab;
+        font-weight: 600;
+    }
+    .bg-cabeza{
+        background-color: $color_principal;
+    }
+    .navbar{
+        height: auto;
+        box-shadow: 0 4px 20px 0 rgba(0,0,0,.45);
+        padding: 14px 3vw;
+    } 
+    .navbar-brand img{
+        height: 40px;
+        width: 40px;
+    }
+    .dropdown-menu {
+        --bs-dropdown-bg: #111;
+        --bs-dropdown-border-color: #454b58;
+        --bs-dropdown-link-active-bg: none;
+        --bs-dropdown-link-hover-bg: none;
+        li{
+            padding: 0;
+            margin: 0;
+            display: block;
+            font-family: Inter;
+            font-size: 19px;
+            white-space: pre-line;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+        img{
+            width: 44px;
+            margin-left: 15px;
+        }
+        .dropdown-item{
+            color: $titulos_mayoria;
+            text-align: center;
+        }
+        .dropdown-divider{
+            border-top: 1px solid #454b58;
+        }
+    }
 }
-
-.navbar_logoText__krn_c{
-    color: #fff;
-    height: 55px;
-    font-size: 36px;
-    font-family: Roboto Slab;
+.action-nav{
+    display: flex;
+    justify-content: start;
+}
+.nav-item a{
+    color: $titulos_mayoria;
+    font-family: Inter;
     font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+/*     margin-left: 150px; */
+}
+.btn-secondary {
+    --bs-btn-bg: none;
+    --bs-btn-border-color: none;
+    --bs-btn-hover-bg:none ;
+    --bs-btn-hover-border-color: none;
+    --bs-btn-active-bg: none;
+    margin-left: 45px;
+    margin-top: 1px;
 }
 
-.grid-header{
-    grid-area: header;
-}
-
-.bg-cabeza{
-    background-color: #111;
-}
-
-.navbar{
+.grid-main{
+    background-color: $color_principal;
+    grid-area: main;
     height: auto;
-    box-shadow: 0 4px 20px 0 rgba(0,0,0,.45);
-    padding: 14px 3vw;
-} 
-
+}
+.apoyo-footer{
+    height: 100px;
+    width: auto;
+    background-color: $color_principal;
+}
+.grid-footer{
+    background-color: $color_principal;
+    padding: 66px 8%;
+    box-shadow:0 4px 20px 0 rgba(0,0,0,.45);
+}
+.informacion-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    gap: 0.8em;
+    .columna1-footer{
+        max-width: 350px;
+        margin-bottom: 0;
+    }
+    .enlance-footer{
+        margin-bottom: 23px;
+        align-items: center;
+        display: inline-flex;
+        &:hover{
+            color: $titulos_mayoria;
+        }
+    }
+    .imagen-footer{
+        width: 32px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .texto-imagen-footer{
+        margin-left: 20px;
+        height: 55px;
+        font-size: 36px;
+        font-family: Roboto Slab;
+        display: inline-block;
+    }
+    .footer-descripcion{
+        margin-bottom: 23px;
+        line-height: 22px;
+        color: #949fa9;
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .redes-sociales{
+        display: flex;
+        img{
+            width: 33px;
+            height: 33px;
+        }
+    }
+    .separador-redes-sociales{
+        background: #454b58;
+        width: 1px;
+        height: 35px;
+        margin: 0px 6px;
+    }
+    .columna2-footer{
+        display: flex;
+        justify-content: normal;
+        .texto-columna2{
+            display: flex;
+            flex-direction: column;
+            h2{
+                font-family: Inter;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;
+                margin: 0;
+                color: #5c6270;
+            }
+            h3{
+                font-family: Inter;
+                font-weight: 400;
+                font-size: 14px;
+                color: inherit;
+                line-height: 17px;
+                margin: 0;
+            }
+            a{
+                margin-top: 16px;
+            }
+        }
+    }
+    .logo-impacto-footer{
+        width: 124px;
+        margin-top: 26px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}    
+hr{
+    opacity:0.7;
+    border: 1px solid $titulos_mayoria;
+}
+.derechos{
+    margin-top: 21px;
+    padding-bottom: 40px;
+    align-items: center;
+    display: flex;
+    .derechos-texto{
+        color: #79858f;
+        font-size: 16px;
+        font-family: Inter;
+    }
+}
+.espacio-footer{
+    display: inline-block;
+    width: 88px;
+}
 .form-control{
     background: #141414;
     width: 500px;
@@ -60,132 +238,51 @@ img {
     font-weight: 400;
     margin-left: 2rem;
     color: #f8f9fa;
-}
-
-.form-control:focus{
-    background: transparent;
-    color: #fff;
-    box-shadow: none;
-    border-color: #454b58;
-}
-
-.navbar-brand img{
-    height: 40px;
-    width: 40px;
-}
-
-ul li {
-    margin-left: auto;
-    align-items: center;
-    padding-left: 20px;    
-}
-
-.btn-secondary {
-    --bs-btn-bg: none;
-    --bs-btn-border-color: none;
-    --bs-btn-hover-bg:none ;
-    --bs-btn-hover-border-color: none;
-    --bs-btn-active-bg: none;
-}
-
-.dropdown-menu {
-    --bs-dropdown-bg: #111;
-    --bs-dropdown-border-color: #454b58;
-    --bs-dropdown-link-active-bg: none;
-    --bs-dropdown-link-hover-bg: none;
-    li{
-        padding: 0;
-        margin: 0;
-        display: block;
-        font-family: Inter;
-        font-size: 19px;
-        white-space: pre-line;
-        margin-top: auto;
-        margin-bottom: auto;
-    }
-    img{
-        width: 44px;
-        margin-left: 15px;
+    &:focus{
+        background: transparent;
+        color: $titulos_mayoria;
+        box-shadow: none;
+        border-color: #454b58;
     }
 }
-
-.dropdown-item{
-    color: #fff;
-    text-align: center;
-}
-
-.dropdown-divider{
-    border-top: 1px solid #454b58;
-}
-
-.action-nav{
-    display: flex;
-    justify-content: start;
-}
-
-a{
-    text-decoration: none;
-    color: #fff;
- 
-}
-
-.nav-item a{
-    color: #fff;
-    font-family: Inter;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 24px;
-    
-}
-
-.grid-main{
-    background-color: #111;
-    grid-area: main;
-    height: auto;
-}
-
-.grid-footer{
-    background-color: #fca311;
-    grid-area: footer;
-    height: auto;
-}
-
-footer .titulo-seccion,
-footer .copy{
-    color: #000000;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 0;
-}
-
-.redes-sociales{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    a{
-        display: inline-block;
-        width: 45px;
-        height: 45px;
-        color: #fff;
-        background-color: #0d2033;
-        align-items: center;
-        line-height: 45px;
-        margin-right: 80px;
-        margin-left: 40px;
-        transition: all 300ms ease;
-        font-size: 25px;
-        margin-top: 20px;
-        &:hover{
-            color: aqua;
-        }
-    }
-
-}
-
 @import "index";
 @import "tienda";
 @import "impacto";
 @import "preguntas";
 @import "registro";
-@import "variables";
 @import "responsive";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
